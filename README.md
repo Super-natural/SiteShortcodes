@@ -17,6 +17,7 @@ Displays a button in the theme's style
 
     [button link="http://www.vinemasher.com" link_text="Visit Vinemasher" target="_self" center="true"]
 
+
 ## Ghost Button - [ghost-button]
 
 Displays a button in the theme's style, but as a ghost button, so it has a transparent background and a supernatural-pink keyline.
@@ -29,6 +30,7 @@ _Same as [button]_
 
     [ghost-button link="http://www.vinemasher.com" link_text="Visit Vinemasher" target="_self" center="true"]
 
+
 ## Launch Work Button - [launch-work-button]
 
 Displays a button in the theme's style, which when clicked opens a fancybox containing the work in an iframe. For use on portfolio pages mainly, but can be used in blog posts if relevant.
@@ -38,10 +40,12 @@ Displays a button in the theme's style, which when clicked opens a fancybox cont
 * `link` The link to the parent page within the webMedia folder on the server. This is the URL that will be loaded into the iframe when the fancybox is launched. Default: none
 * `link_text` The text within the button. Default: "View work"
 * `center` Center this button within the parent element? Default: false
+* `is_flash` Set to true if the work is flash and the button will be hidden if the user doesn't have flash. Default: false
 
 #### Example
 
-    [launch-work-button link="http://www.wearesupernatural.com/webMedia_v2/channel4/utopia2/utopia2Parent.html" link_text="Visit Vinemasher" center="true"]
+    [launch-work-button link="http://www.wearesupernatural.com/webMedia_v2/channel4/utopia2/utopia2Parent.html" link_text="Open the work" center="true" is_flash="true"]
+
 
 ## Vimeo player - [vimeo]
 
@@ -72,6 +76,21 @@ Displays social sharing icons for twitter and facebook, which launch share windo
 #### Example
 
     [share-links alignment="right" share_text="Check out this great post yaya!" hide_facebook="true"]
+
+
+## Flash support wrapper - [if-has-flash]
+
+Wrap content in this shortcode to get it to only show if the users browser has flash installed. Useful for writing alternate copy or something like that.
+
+#### Parameters
+
+_None_
+
+#### Example
+
+    [if-has-flash]
+      This content and anything before the end tag will only show if the user has flash installed
+    [end-if-has-flash]
 
 
 ## Columns
