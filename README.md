@@ -6,14 +6,14 @@
 
 Displays a button in the theme's style
 
-#### Parameters
+##### Parameters
 
 * `link` Where the button goes when its clicked. Default: the homepage
 * `link_text` The text within the button. Default: "Visit"
 * `target` Open link in the same window (\_self), or a new window (\_blank). Default: "\_blank"
 * `center` Center this button within the parent element? Default: false
 
-#### Example
+##### Example
 
     [button link="http://www.vinemasher.com" link_text="Visit Vinemasher" target="_self" center="true"]
 
@@ -22,11 +22,11 @@ Displays a button in the theme's style
 
 Displays a button in the theme's style, but as a ghost button, so it has a transparent background and a supernatural-pink keyline.
 
-#### Parameters
+##### Parameters
 
 _Same as [button]_
 
-#### Example
+##### Example
 
     [ghost-button link="http://www.vinemasher.com" link_text="Visit Vinemasher" target="_self" center="true"]
 
@@ -35,14 +35,14 @@ _Same as [button]_
 
 Displays a button in the theme's style, which when clicked opens a fancybox containing the work in an iframe. For use on portfolio pages mainly, but can be used in blog posts if relevant.
 
-#### Parameters
+##### Parameters
 
 * `link` The link to the parent page within the webMedia folder on the server. This is the URL that will be loaded into the iframe when the fancybox is launched. Default: none
 * `link_text` The text within the button. Default: "View work"
 * `center` Center this button within the parent element? Default: false
 * `is_flash` Set to true if the work is flash and the button will be hidden if the user doesn't have flash. Default: false
 
-#### Example
+##### Example
 
     [launch-work-button link="http://www.wearesupernatural.com/webMedia_v2/channel4/utopia2/utopia2Parent.html" link_text="Open the work" center="true" is_flash="true"]
 
@@ -51,13 +51,13 @@ Displays a button in the theme's style, which when clicked opens a fancybox cont
 
 Displays a vimeo player in an iframe. Hint: to get the ID, go to the video you want on vimeo.com and look at the end of url
 
-#### Parameters
+##### Parameters
 
 * `id` Id of the vimeo video to insert. Default: none
 * `width` Width of the video (enter units too, e.g. 500px, 80%, etc). Default: 100%
 * `height` Height of the video. Default: 100%
 
-#### Example
+##### Example
 
     [vimeo id="109836047" width="480px" height="270px"]
 
@@ -66,14 +66,14 @@ Displays a vimeo player in an iframe. Hint: to get the ID, go to the video you w
 
 Displays social sharing icons for twitter and facebook, which launch share windows when clicked, so users can share our pages more easily
 
-#### Parameters
+##### Parameters
 
 * `share_text` The default text that is pre-filled in the share box. Only appears for twitter, as FB doesn't support this anymore. Default: none
 * `alignment` Align left or right of the parent element. Default: "left"
 * `hide_twitter` Set to true to hide the twitter icon. Default: false
 * `hide_facebook` Set to true to hide the facebook icon. Default: false
 
-#### Example
+##### Example
 
     [share-links alignment="right" share_text="Check out this great post yaya!" hide_facebook="true"]
 
@@ -82,11 +82,11 @@ Displays social sharing icons for twitter and facebook, which launch share windo
 
 Wrap content in this shortcode to get it to only show if the users browser has flash installed. Useful for writing alternate copy or something like that.
 
-#### Parameters
+##### Parameters
 
 _None_
 
-#### Example
+##### Example
 
     [if-has-flash]
       This content and anything before the end tag will only show if the user has flash installed
@@ -104,7 +104,7 @@ There are a few shortcodes for creating column based layouts. Treat them like di
 * `third-column` Start a column that takes up a third of the container
 * `end-third-column` End the third column
 
-#### Example
+##### Example
 
 With 2 columns:
 
