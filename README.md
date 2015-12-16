@@ -31,7 +31,7 @@ _Same as [button]_
     [ghost-button link="http://www.vinemasher.com" link_text="Visit Vinemasher" target="_self" center="true"]
     
     
-## Fancy Box Button [launch-fancybox]
+## Fancy Box Button - [launch-fancybox]
 
 
 Displays a button in the theme's style, which when clicked opens a fancybox containing the work in an iframe. For use on portfolio pages mainly, but can be used in blog posts if relevant.
