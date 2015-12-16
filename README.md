@@ -29,11 +29,13 @@ _Same as [button]_
 ##### Example
 
     [ghost-button link="http://www.vinemasher.com" link_text="Visit Vinemasher" target="_self" center="true"]
+    
+    
+## Fancy Box Button [launch-fancybox]
 
-
-## Launch Work Button - [launch-work-button]
 
 Displays a button in the theme's style, which when clicked opens a fancybox containing the work in an iframe. For use on portfolio pages mainly, but can be used in blog posts if relevant.
+
 
 ##### Parameters
 
@@ -44,7 +46,7 @@ Displays a button in the theme's style, which when clicked opens a fancybox cont
 
 ##### Example
 
-    [launch-work-button link="http://www.wearesupernatural.com/webMedia_v2/channel4/utopia2/utopia2Parent.html" link_text="Open the work" center="true" is_flash="true"]
+    [launch-fancybox-button json="/channel4/goggleboxQ4" link_text="View work" is_flash="false"]
 
 
 ## Vimeo player - [vimeo]
